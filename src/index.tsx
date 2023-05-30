@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import configureStore from './store/configureStore';
-import 'react-toastify/dist/ReactToastify.css';
-import 'assets/index.scss';
 import App from 'App';
+import configureStore from './store/configureStore';
+import 'assets/index.scss';
 
 const config = configureStore();
 export const { store, persistor } = config;
